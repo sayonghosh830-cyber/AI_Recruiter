@@ -1,6 +1,0 @@
-{
-  "name": "Recruiter Hybrid Ranking and Matching Pipeline",
-  "description": "An end-to-end recruitment prioritization and matching pipeline that ranks candidate profiles based on skill overlap, semantic similarity, profile quality, and platform signals.",
-  "requestFramePermissions": [],
-  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
-}
