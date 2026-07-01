@@ -1,0 +1,51 @@
+candidate_id,rank,score,reasoning
+CAND_0000001,1,0.8166,Backend Engineer with 6.9 yrs; Matched 4 required tech skills; exceptional career tenure.
+CAND_0000032,2,0.5626,.NET Developer with 8.1 yrs; Matched 4 required tech skills; exceptional career tenure.
+CAND_0000010,3,0.4841,Data Engineer with 4.6 yrs; Matched 3 required tech skills; exceptional career tenure.
+CAND_0000035,4,0.4763,Full Stack Developer with 4.3 yrs; Matched 3 required tech skills; exceptional career tenure.
+CAND_0000044,5,0.4393,Frontend Engineer with 5.7 yrs; Matched 2 required tech skills; exceptional career tenure; Note: Core focus profile is Frontend-centric.
+CAND_0000038,6,0.427,Java Developer with 6.7 yrs; Matched 2 required tech skills; exceptional career tenure.
+CAND_0000027,7,0.4251,DevOps Engineer with 3.9 yrs; Matched 2 required tech skills; exceptional career tenure.
+CAND_0000015,8,0.4062,Software Engineer with 5.4 yrs; Matched 1 required tech skills; exceptional career tenure.
+CAND_0000025,9,0.3484,Frontend Engineer with 7.3 yrs; Matched 1 required tech skills; exceptional career tenure; Note: Core focus profile is Frontend-centric.
+CAND_0000023,10,0.3191,Software Engineer with 3.7 yrs; immediate/30-day availability window; exceptional career tenure.
+CAND_0000043,11,0.3117,Cloud Engineer with 8.3 yrs; exceptional career tenure.
+CAND_0000021,12,0.2954,Project Manager with 14.5 yrs; Matched 2 required tech skills; exceptional career tenure.
+CAND_0000048,13,0.2838,Mobile Developer with 9.7 yrs; Matched 1 required tech skills; exceptional career tenure.
+CAND_0000008,14,0.2691,Operations Manager with 3.6 yrs; Matched 1 required tech skills; exceptional career tenure.
+CAND_0000037,15,0.2689,Business Analyst with 14.3 yrs; Matched 1 required tech skills; high collaborator profile; immediate/30-day availability window.
+CAND_0000047,16,0.2689,Project Manager with 2.4 yrs; Matched 1 required tech skills; exceptional career tenure.
+CAND_0000026,17,0.2689,Graphic Designer with 6.8 yrs; Matched 1 required tech skills; immediate/30-day availability window; exceptional career tenure.
+CAND_0000024,18,0.266,HR Manager with 7.5 yrs; Matched 1 required tech skills; high collaborator profile; exceptional career tenure.
+CAND_0000039,19,0.2646,Marketing Manager with 3.9 yrs; Matched 1 required tech skills; immediate/30-day availability window; exceptional career tenure.
+CAND_0000011,20,0.2636,QA Engineer with 2.0 yrs; Matched 1 required tech skills; exceptional career tenure.
+CAND_0000041,21,0.2634,Operations Manager with 13.7 yrs; Matched 1 required tech skills; exceptional career tenure.
+CAND_0000031,22,0.2627,Recommendation Systems Engineer with 6.0 yrs; high collaborator profile; exceptional career tenure.
+CAND_0000006,23,0.2621,Business Analyst with 6.0 yrs; Matched 1 required tech skills; exceptional career tenure.
+CAND_0000016,24,0.261,Accountant with 5.3 yrs; Matched 1 required tech skills; exceptional career tenure.
+CAND_0000050,25,0.2571,Business Analyst with 13.5 yrs; Matched 1 required tech skills; exceptional career tenure.
+CAND_0000005,26,0.2545,Accountant with 11.0 yrs; Matched 1 required tech skills; immediate/30-day availability window; exceptional career tenure.
+CAND_0000002,27,0.2543,Operations Manager with 12.5 yrs; Matched 1 required tech skills; exceptional career tenure.
+CAND_0000014,28,0.2539,Frontend Engineer with 8.4 yrs; high collaborator profile; exceptional career tenure; Note: Core focus profile is Frontend-centric.
+CAND_0000018,29,0.246,Frontend Engineer with 6.6 yrs; exceptional career tenure; Note: Core focus profile is Frontend-centric.
+CAND_0000022,30,0.176,Mechanical Engineer with 1.1 yrs; Matched 1 required tech skills; exceptional career tenure; Cross-domain transition candidate.
+CAND_0000013,31,0.1732,Civil Engineer with 1.1 yrs; Matched 1 required tech skills; immediate/30-day availability window; exceptional career tenure.
+CAND_0000007,32,0.1719,Civil Engineer with 5.5 yrs; Matched 1 required tech skills; immediate/30-day availability window; exceptional career tenure.
+CAND_0000004,33,0.1711,Marketing Manager with 3.8 yrs; exceptional career tenure.
+CAND_0000040,34,0.1695,Customer Support with 1.6 yrs; Matched 2 required tech skills; exceptional career tenure.
+CAND_0000034,35,0.1673,Business Analyst with 14.5 yrs; exceptional career tenure.
+CAND_0000029,36,0.1652,Business Analyst with 7.2 yrs; exceptional career tenure.
+CAND_0000017,37,0.1641,Accountant with 12.3 yrs; Matched 1 required tech skills; exceptional career tenure.
+CAND_0000030,38,0.1633,Marketing Manager with 10.0 yrs; exceptional career tenure.
+CAND_0000028,39,0.159,Operations Manager with 1.1 yrs; exceptional career tenure.
+CAND_0000012,40,0.1581,Operations Manager with 1.1 yrs; exceptional career tenure.
+CAND_0000045,41,0.1572,Project Manager with 12.2 yrs; Matched 1 required tech skills; exceptional career tenure.
+CAND_0000019,42,0.1546,Project Manager with 6.5 yrs; exceptional career tenure.
+CAND_0000042,43,0.1539,HR Manager with 5.0 yrs; immediate/30-day availability window; exceptional career tenure.
+CAND_0000033,44,0.1486,Graphic Designer with 8.6 yrs; immediate/30-day availability window; exceptional career tenure.
+CAND_0000036,45,0.1479,Project Manager with 11.3 yrs; exceptional career tenure.
+CAND_0000049,46,0.1304,Mechanical Engineer with 11.8 yrs; exceptional career tenure; Cross-domain transition candidate.
+CAND_0000009,47,0.1258,Mechanical Engineer with 11.0 yrs; exceptional career tenure; Cross-domain transition candidate.
+CAND_0000020,48,0.1257,Mechanical Engineer with 6.3 yrs; immediate/30-day availability window; exceptional career tenure; Cross-domain transition candidate.
+CAND_0000046,49,0.1256,Mechanical Engineer with 7.8 yrs; immediate/30-day availability window; exceptional career tenure; Cross-domain transition candidate.
+CAND_0000003,50,0.0712,Customer Support with 1.1 yrs; exceptional career tenure.
