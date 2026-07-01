@@ -31,29 +31,55 @@ It processes structured candidate data, applies a hybrid scoring system, and gen
 
 ## 🏗️ System Architecture
 
-```text
-┌──────────────────────────────┐
-│     Streamlit UI Layer       │
-│     (app.py Dashboard)       │
-└──────────────┬───────────────┘
-               │
-               ▼
-┌──────────────────────────────┐
-│   Python AI Pipeline Layer   │
-│   main_pipeline.py + src/    │
-└──────────────┬───────────────┘
-               │
-               ▼
-┌──────────────────────────────┐
-│   Ranking & Explainability   │
-│    Hybrid scoring engine     │
-└──────────────┬───────────────┘
-               │
-               ▼
-┌──────────────────────────────┐
-│         Output Layer         │
-│   CSV + Excel Leaderboards   │
-└──────────────────────────────┘
+```mermaid
+graph TD
+    %% Styling Definitions
+    classDef ui fill:#e3f2fd,stroke:#1e88e5,stroke-width:2px,color:#0d47a1;
+    classDef pipeline fill:#efebe9,stroke:#6d4c41,stroke-width:2px,color:#3e2723;
+    classDef engine fill:#e8f5e9,stroke:#43a047,stroke-width:2px,color:#1b5e20;
+    classDef output fill:#fbe9e7,stroke:#f4511e,stroke-width:2px,color:#b71c1c;
+
+    subgraph UI ["🌐 Streamlit UI Dashboard Layer"]
+        A["🎈 app.py Dashboard<br>(Streamlit Interface)"]:::ui
+        A1["📥 Dataset Ingestion Panel"]:::ui
+        A2["⚙️ Custom Job Config Panel"]:::ui
+        A3["📈 Interactive Analytics Canvas"]:::ui
+        A --> A1
+        A --> A2
+        A --> A3
+    end
+
+    subgraph Pipeline ["🐍 Python AI Pipeline Layer"]
+        B["🚀 main_pipeline.py<br>(Orchestration Core)"]:::pipeline
+        B1["📂 src/data_loader.py<br>(JSON parser & Schema Validator)"]:::pipeline
+        B2["🔬 src/feature_engineering.py<br>(Tenure & Academic Quality Scores)"]:::pipeline
+        B --> B1
+        B --> B2
+    end
+
+    subgraph Engine ["🧠 Ranking & Explainability Engine"]
+        C["🎯 src/matching_layer.py<br>(TF-IDF & Toolkit Alignment)"]:::engine
+        C1["🧮 src/hybrid_ranking_engine.py<br>(Composite Scaling & Multipliers)"]:::engine
+        C2["🧾 src/explainability_pipeline.py<br>(Dynamic Math-based Explanations)"]:::engine
+        C --> C1
+        C1 --> C2
+    end
+
+    subgraph Outputs ["📊 Standardized Output Layer"]
+        D["💾 src/submission_generator.py<br>(Exporter Engine)"]:::output
+        D1["📄 ranked_leaderboard.csv"]:::output
+        D2["📈 ranked_leaderboard.xlsx"]:::output
+        D3["📝 submission.csv"]:::output
+        D --> D1
+        D --> D2
+        D --> D3
+    end
+
+    %% System Data Flows
+    UI ====>|Passes Dataset & Job Schema| Pipeline
+    Pipeline ====>|Injects Enriched Candidates DataFrame| Engine
+    Engine ====>|Generates Scores, Ranks & Explanations| Outputs
+    Outputs ====>|Serves Downloads & Renders Table| UI
 ```
 
 ---
